@@ -10,10 +10,10 @@ The project employs the **Medallion Architecture**, structured into three layers
 
 ## 🏗️ Project Components
 
-✔ **Data Architecture** – Designing a modern **data warehouse** using **Medallion Architecture**.  
-✔ **ETL Pipelines** – **Extracting, transforming, and loading (ETL)** data from source systems into the warehouse.  
-✔ **Data Modeling** – Developing **fact** and **dimension** tables optimized for analytical queries.  
-✔ **Analytics & Reporting** – Creating **SQL-based reports and dashboards** to generate actionable insights.
+- **Data Architecture** – Designing a modern **data warehouse** using **Medallion Architecture**.  
+- **ETL Pipelines** – **Extracting, transforming, and loading (ETL)** data from source systems into the warehouse.  
+- **Data Modeling** – Developing **fact** and **dimension** tables optimized for analytical queries.  
+- **Analytics & Reporting** – Creating **SQL-based reports and dashboards** to generate actionable insights.
 
 
 ## 🛠️ Tech Stack
