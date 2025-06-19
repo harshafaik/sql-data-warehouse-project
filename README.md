@@ -25,7 +25,7 @@ The project employs the **Medallion Architecture**, structured into three layers
 
 
 ## 📂 Project Structure
-data-warehouse-project/
+SQL-DATA-WAREHOUSE-PROD
 ├── datasets
 │   ├── source_crm
 │   └── source_erp
