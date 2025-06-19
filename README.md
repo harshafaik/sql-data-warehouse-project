@@ -25,22 +25,25 @@ The project employs the **Medallion Architecture**, structured into three layers
 
 
 ## 📂 Project Structure
-SQL-DATA-WAREHOUSE-PROD
-├── datasets
-│   ├── source_crm
-│   └── source_erp
-├── images
-├── legacy
-│   ├── ddl_bronze.sql
-│   └── proc_load_bronze.sql
-├── scripts
-│   ├── bronze
+
+```
+SQL-DATA-WAREHOUSE-PROD/
+├── datasets/                # Source data files
+│   ├── source_crm/         # CRM system data extracts
+│   └── source_erp/         # ERP system data extracts
+├── images/                  # Project-related images and diagrams
+├── legacy/                  # Legacy SQL scripts (for reference/migration)
+│   ├── ddl_bronze.sql       # DDL for Bronze layer (legacy)
+│   └── proc_load_bronze.sql # ETL procedure for Bronze layer (legacy)
+├── scripts/                 # Main ETL and DDL scripts
+│   ├── bronze/              # Scripts for Bronze (raw) layer
 │   │   └── ddl_proc_load_bronze.sql
-│   ├── gold
-│   └── silver
-│       ├── ddl_silver.sql
-│       └── proc_load_silver.sql
-├── tests
-├── .gitignore
-├── LICENSE
-└── README.md
+│   ├── silver/              # Scripts for Silver (cleansed) layer
+│   │   ├── ddl_silver.sql
+│   │   └── proc_load_silver.sql
+│   └── gold/                # Scripts for Gold (business) layer
+├── tests/                   # Unit and integration tests
+├── .gitignore               # Git ignore rules
+├── LICENSE                  # Project license
+└── README.md                # Project documentation
+```
