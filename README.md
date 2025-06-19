@@ -25,3 +25,23 @@ The project employs the **Medallion Architecture**, structured into three layers
 
 
 ## 📂 Project Structure
+data-warehouse-project/
+|
+├── datasets
+│   ├── source_crm
+│   └── source_erp
+├── images
+├── legacy
+│   ├── ddl_bronze.sql
+│   └── proc_load_bronze.sql
+├── scripts
+│   ├── bronze
+│   │   └── ddl_proc_load_bronze.sql
+│   ├── gold
+│   └── silver
+│       ├── ddl_silver.sql
+│       └── proc_load_silver.sql
+├── tests
+├── .gitignore
+├── LICENSE
+└── README.md
